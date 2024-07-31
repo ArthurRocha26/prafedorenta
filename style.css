@@ -1,0 +1,59 @@
+body{
+    font-family:"cursive";
+  }
+
+h1{
+    font-family: "cursive";
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 5px 5px rgb(198, 195, 195);
+}
+
+#fundo{
+    background-image: url(https://i.pinimg.com/736x/6a/f3/c8/6af3c8e06bdf0cc19d1da06d673ab6df.jpg);
+    position: fixed;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+    opacity: 0.4;
+}
+
+main{
+    background-color: rgba(182, 28, 28, 0);
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 3, 3);
+    color:rgb(0, 0, 0);
+    background-color: rgba(7, 20, 210, 0.479);
+    font-style: bolder;
+    width: 80px;
+    border-radius: none;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 100%;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover{
+    background-color: rgba(95, 158, 160, 0.347);
+    transition: 0.1s;
+}
+
+#sim{
+    left: 5%;
+}
+
+#nao{
+    left: 55%;
+}
